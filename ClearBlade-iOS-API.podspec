@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author       = { "ClearBlade, Inc." => "support@clearblade.com" }
 
   s.source       = { :git => "https://github.com/ClearBlade/iOS-API.git", :tag => '1.18.0' }
-  s.header_dir = 'libmosquitto'
+  s.header_dir = ''
   s.source_files  = 'ClearBladeAPI/**/*.{h,m,c}'
   s.exclude_files = 'ClearBladeAPI/libmosquitto/*.c' 
   s.requires_arc = true
